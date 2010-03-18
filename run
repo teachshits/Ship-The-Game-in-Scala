@@ -1,0 +1,1 @@
+scala -cp target/ship-0.1.jar br.eti.ftfarias.ShipTheGame
