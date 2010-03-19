@@ -10,23 +10,23 @@ So far I did:
 * The main application (ship.main.ShipApp)
 * the bootstrap game class (ship.application.ShipGame)
 * Helper classes: Positon, Time, Swing Utils, etc
-* the some domain classes:
-** Ship
-** Sensor
-** Power Grid
-** Power Generator
-** Move Behavior
-** Battery
 * The UI uses Swing classes and is 2D. I'm trying to focus in a *TRUE* MVC implementation. Of course I'll love to see 
 someone creating a 3D version.
 * I'm plaining to create web services to the game, so it can be played anywhere for many people.
-* I created test units (JUnit 4) for the most important classes. I gave up to test all since I'm doing a lot of changes 
-in the project and I don't have time.
+* Test units (JUnit an Specs). I'm new in TDD, so be paciente.
+
+## Domain classes so far:
+* Ship
+* Sensor
+* Power Grid
+* Power Generator
+* Move Behavior
+* Battery
 
 Many domain classes can be extended for more realistic implementations and complex behaviors, using the Strategy Design 
 Pattern. I'm trying to keep the dependences at mininum level.
 
-For the future I'm planning
+## For the future
 * weapons and defence systems... FIGHT !!!
 * Stelar bases and science outposts
 * Some A.I. ships and NPCs
