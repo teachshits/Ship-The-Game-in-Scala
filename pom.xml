@@ -119,5 +119,7 @@
       </plugin>
     </plugins>
   </reporting>
+    <name>Ship The Game</name>
 </project>
+
 
